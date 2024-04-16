@@ -48,7 +48,7 @@ header {
 }
 
 header img {
-    width: 4rem;
+    height: 8rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -75,7 +75,7 @@ nav li a {
     text-decoration: none;
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
-    padding: 1rem 2rem;
+    padding: 0.6rem 1.2rem;
     font-weight: 500;
 
     border-radius: 15rem;
@@ -143,7 +143,7 @@ button.dark-btn:hover {
 }
 
 .card img {
-    height: 20rem;
+    height: 15rem;
     margin: 2rem;
     border-radius: 0.5rem;
 }
@@ -190,8 +190,8 @@ button.dark-btn:hover {
 }
 
 .content-visual img {
-    height: 20rem;
-    width: 30rem;
+    height: 16rem;
+    width: 22rem;
 }
 
 /* HERO */
@@ -293,24 +293,30 @@ footer p {
 }
 /* END OF FOOTER */
 
-/* @media screen and (min-width: 576px) {
-    .wrapper {
-        flex-direction: column;
-    }
-} */
-
 @media screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    header img {
+        height: 6rem;
+    }
+
+    nav {
+        padding: 1rem;
+    }
+
     nav ul {
         flex-wrap: wrap;
     }
 
-    /* TODO */
     nav li a {
-        font-size: 1.2rem;
-        padding: 1rem;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
     
-        border-radius: 15rem;
+        border-radius: 10rem;
     }
+    
     .wrapper {
         flex-direction: column;
         padding: 0rem;
@@ -334,7 +340,7 @@ footer p {
     
     .content-visual img {
         height: 14rem;
-        width: 24rem;
+        width: 22rem;
     }
 
     h2 {
@@ -351,5 +357,19 @@ footer p {
 
     footer hr {
         width: 15rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 1rem;
+    }
+
+    header img {
+        height: 6rem;
+    }
+
+    nav {
+        padding: 1rem;
     }
 }
