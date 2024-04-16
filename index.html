@@ -33,37 +33,25 @@
 </head>
 
 <body>
-    <header>
-        <img src="./images/logo.png" alt="Lucky Shrub">
-    </header>
-    <nav>
-        <!-- Add your website navigation here -->
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#works">Our Works</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-    </nav>
+    <div class="sticky-header">
+        <header>
+            <img src="./images/logo.png" alt="Lucky Shrub">
+        </header>
+        <nav>
+            <!-- Add your website navigation here -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </div>
     <main>
-        <!-- Add your main content here -->
         <section id="home" class="hero-image">
-            <!-- <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a delectus eligendi harum sit et
-                ex
-                quos consectetur sequi ipsa natus veniam quas quo, corrupti fugit alias assumenda perspiciatis
-                rerum?
-            </p>
-            <button>Contact Us</button> -->
-            <!-- <img src="./images/garden_banner.jpg" alt=""> -->
             <div class="hero-text">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a delectus eligendi harum sit et
-                    ex
-                    quos consectetur sequi ipsa natus veniam quas quo, corrupti fugit alias assumenda perspiciatis
-                    rerum?
-                </p>
-                <button>Contact Us</button>
+                <p>Make your garden look geourgeus like yourself</p>
+                <button class="dark-btn contact">Contact Us</button>
             </div>
         </section>
         <section id="services" class="services">
@@ -86,20 +74,20 @@
         <section id="works" class="works">
             <h2>Our Works</h2>
             <div class="wrapper">
-                <div class="content">
-                    <div>
+                <div class="content-visual">
+                    <div class="content-description">
                         <h3>Japanese Style Garden</h3>
                     </div>
                     <img src="./images/garden_japan.jpg" alt="Japanese Style Garden">
                 </div>
-                <div class="content">
-                    <div>
+                <div class="content-visual">
+                    <div class="content-description">
                         <h3>European Style Garden</h3>
                     </div>
                     <img src="./images/garden_europe.jpg" alt="European Style Garden">
                 </div>
-                <div class="content">
-                    <div>
+                <div class="content-visual">
+                    <div class="content-description">
                         <h3>American Style Garden</h3>
                     </div>
                     <img src="./images/garden_america.jpg" alt="American Style Garden">
@@ -121,7 +109,6 @@
         </section>
     </main>
     <footer>
-        <!-- Add copyright notices and other footer content here -->
         <div>
             <img src="./images/logo.png" alt="Lucky Shrub">
         </div>
