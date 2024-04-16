@@ -1,9 +1,9 @@
-const header = document.querySelector(`.sticky-header`);
+const headerShadow = document.querySelector(`.sticky-header`);
 
 document.addEventListener(`scroll`, () => {
     if (window.scrollY > 0) {
-        header.classList.add(`scrolled`);
+        headerShadow.classList.add(`scrolled`);
     } else {
-        header.classList.remove(`scrolled`);
+        headerShadow.classList.remove(`scrolled`);
     }
 });
