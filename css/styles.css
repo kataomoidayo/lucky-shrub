@@ -293,17 +293,18 @@ footer p {
 }
 /* END OF FOOTER */
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
     .wrapper {
         flex-direction: column;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     nav ul {
         flex-wrap: wrap;
     }
 
+    /* TODO */
     nav li a {
         font-size: 1.2rem;
         padding: 1rem;
@@ -317,16 +318,6 @@ footer p {
 
     .card {
         padding: 0.2rem;
-        align-items: center;
-        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.2);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
-        background-color: #ffffff;
-    }
-    
-    .card:hover {
-        transform: scale(1.03);
-        box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.2);
     }
     
     .card img {
